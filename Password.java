@@ -4,7 +4,7 @@ public class Password
 { 
 	public static void main(String[] args) 
 	{ 
-		Scanner scanner = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 
         // The default length of the password generated is 10
 		int length = 10;
@@ -12,7 +12,7 @@ public class Password
 		do
 		{
         	System.out.println("Please input the length of the password: ");
-        	length = scanner.nextInt();
+        	length = scan.nextInt();
 		} while (length <= 0);
 
 		System.out.println(generator(length)); 
