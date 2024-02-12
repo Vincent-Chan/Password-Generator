@@ -6,7 +6,7 @@ This is a Java program that user can randomly generate a new password anytime, a
 
 ## How to run?
 
-1. Open `Password.java` in VS Code (or IntelliJ IDEA)
+1. Open `Password.java` in VS Code.
 2. If you open it using VS Code, simply click the "Run Code" button
 3. Input the length of the passwords you want to generate. Note that the length should be an integer greater than 0.
 4. Press enter key after you type the integer.
